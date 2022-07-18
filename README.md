@@ -43,14 +43,16 @@ Each Algorithms below fit in Logistic Regression model to train
 * balanced accuracy scores = 0.78712
 * precision scores for high_risk = 0.04, low_risk = 1.00
 * recall scores for high_risk = 0.67, low_risk = 0.91
-![Ensemble_BalanceRandomForest](https://user-images.githubusercontent.com/100484606/178210121-d64368e2-4e4b-406c-a584-e4574671ea7b.JPG)
+![Ensemble_BalanceRandomForest](https://user-images.githubusercontent.com/100484606/179457335-031f233f-f83f-4546-ac15-cb4d88b465af.JPG)
+
 
 6. Ensemble Classifiers EasyEnsembleClassifier algorithms:
 
-* balanced accuracy scores = 0.5
-* precision scores for high_risk = 0.01, low_risk = 0.00
-* recall scores for high_risk = 1.00, low_risk = 0.00
-![Ensemble_EasyEnsembleClassifier](https://user-images.githubusercontent.com/100484606/178210175-3bfb4014-6df3-4e3a-bfcc-9402d37f0150.JPG)
+* balanced accuracy scores = 0.9255
+* precision scores for high_risk = 0.07, low_risk = 1.00
+* recall scores for high_risk = 0.91, low_risk = 0.94
+![Ensemble_EasyEnsembleClassifier](https://user-images.githubusercontent.com/100484606/179457298-31acb7e5-5866-4eb8-b803-f731001bf51d.JPG)
+
 
 ## Summary
 As the result, we run through all 6 machine learning models, the highest balanced accuracy scores is the Easy Ensemble Classifier algorithms, which gives us 0.9255 high score of accuracy. On the other hand the precision score that correctly predicted the high risk loan is 0.07, low risk loan is 1.00, the recall(sensitive) scores that correctly detect potential high rick loan is 0.91, low risk loan is 0.94.
