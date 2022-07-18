@@ -40,14 +40,14 @@ Each Algorithms below fit in Logistic Regression model to train
 
 5. Ensemble Classifiers Balanced Random Forest Classifier algorithms:
 
-* balanced accuracy scores = 0.7871
+* balanced accuracy scores = 0.78712
 * precision scores for high_risk = 0.04, low_risk = 1.00
 * recall scores for high_risk = 0.67, low_risk = 0.91
 ![Ensemble_BalanceRandomForest](https://user-images.githubusercontent.com/100484606/178210121-d64368e2-4e4b-406c-a584-e4574671ea7b.JPG)
 
 6. Ensemble Classifiers EasyEnsembleClassifier algorithms:
 
-* balanced accuracy scores = 0.9255
+* balanced accuracy scores = 0.5
 * precision scores for high_risk = 0.01, low_risk = 0.00
 * recall scores for high_risk = 1.00, low_risk = 0.00
 ![Ensemble_EasyEnsembleClassifier](https://user-images.githubusercontent.com/100484606/178210175-3bfb4014-6df3-4e3a-bfcc-9402d37f0150.JPG)
